@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{D237B568-4235-EAFD-6B6C-5484B6728D17}",
+	"EngineAssociation": "{29680129-4707-FD7D-B083-4C91E5E844E4}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "ShooterGame",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
@@ -29,6 +32,11 @@
 		{
 			"Name": "MoverTests",
 			"Enabled": true
+		},
+		{
+			"Name": "ElectronicNodes",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5cb2a394d0c04e73891762be4cbd7216"
 		}
 	]
 }
